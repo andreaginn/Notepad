@@ -1,9 +1,6 @@
 const express = require('express');
 const fs = require('fs');
-const errorHandler = require('npm2/lib/utils/error-handler');
 const path = require('path');
-const util = require('util');
-const { v4: uuidv4 } = require('uuid');
 const notes = require("./db/db.json")
 
 const app = express();
